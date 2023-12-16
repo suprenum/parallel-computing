@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	overflow-x: hidden;
+	font-family: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
+}
+
+.webgl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	outline: none;
+	cursor: grab;
+}
